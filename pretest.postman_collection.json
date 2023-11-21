@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "071f694d-218f-408e-8301-5fae067a8c22",
+		"name": "pretest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8163661"
+	},
+	"item": [
+		{
+			"name": "Inventory1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"productId\":\"Prod1\",\"prodName\":\"Shirt\", \"reqDate\": \"2021-03-19\"} ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/getInvPicture",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getInvPicture"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Inventory2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"productId\":\"Prod1\",\"prodName\":\"Shirt\", \"reqDate\": \"2021-03-22\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/getInvPicture",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getInvPicture"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Inventory3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"productId\":\"Prod1\",\"prodName\":\"Shirt\", \"reqDate\": \"2021-03-30\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/getInvPicture",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getInvPicture"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Inventory4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"productId\":\"Prod1\",\"prodName\":\"Shirt\", \"reqDate\": \"2021-03-17\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/getInvPicture",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getInvPicture"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
